@@ -170,7 +170,6 @@ class _PenjualScreenState extends State<PenjualScreen> {
                   //Untuk ngubah value toggleToko-nya, jadi NOT dari value awal
                   onTap: () {
                     setState(() => toggleToko = !toggleToko);
-                    print(toggleToko);
                   },
                 ),
               ),
