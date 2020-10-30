@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:proxim/screens/home/home.dart';
 import 'package:proxim/screens/pembeli/pembeli_main.dart';
+import 'package:proxim/screens/penjual/penjual_main.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
       routes: {
         HomeScreen.routeName: (context) => HomeScreen(),
         PembeliScreen.routeName: (context) => PembeliScreen(),
+        PenjualScreen.routeName: (context) => PenjualScreen(),
       },
     );
   }

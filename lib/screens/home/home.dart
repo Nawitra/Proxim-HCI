@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:proxim/shared/constants.dart';
 import 'package:proxim/screens/pembeli/pembeli_main.dart';
+import 'package:proxim/screens/penjual/penjual_main.dart';
 
 void main() => runApp(HomeScreen());
 
@@ -41,7 +42,7 @@ class HomeScreen extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context)
-                  .pushReplacementNamed(PembeliScreen.routeName);
+                  .pushReplacementNamed(PenjualScreen.routeName);
             },
           ),
           SizedBox(height: 60.0),
