@@ -6,6 +6,7 @@ import 'package:proxim/screens/pembeli/pembeli_main.dart';
 void main() => runApp(HomeScreen());
 
 class HomeScreen extends StatelessWidget {
+  //Ini untuk
   static const routeName = '/home';
 
   @override
@@ -15,6 +16,7 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         children: <Widget>[
           SizedBox(height: 90.0),
+          //Logo proxim yang text
           Container(
             margin: EdgeInsets.all(16.0),
             child: Column(
@@ -24,7 +26,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           SizedBox(height: MediaQuery.of(context).size.height * 0.21),
-          //Info toko
+          //Info toko, inkwell dipake biar bisa ganti screen pas dipencet
           InkWell(
             child: Container(
               width: 256,
