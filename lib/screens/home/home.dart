@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
 import 'package:proxim/shared/constants.dart';
+import 'package:proxim/screens/pembeli/pembeli_main.dart';
 
 void main() => runApp(HomeScreen());
 
 class HomeScreen extends StatelessWidget {
+  static const routeName = '/home';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,28 +25,40 @@ class HomeScreen extends StatelessWidget {
           ),
           SizedBox(height: MediaQuery.of(context).size.height * 0.21),
           //Info toko
-          Container(
-            width: 256,
-            height: 86,
-            margin: EdgeInsets.only(
-                right: MediaQuery.of(context).size.width * 0.30),
-            child: Column(
-              children: <Widget>[
-                Image.asset('assets/img/info_toko.png'),
-              ],
+          InkWell(
+            child: Container(
+              width: 256,
+              height: 86,
+              margin: EdgeInsets.only(
+                  right: MediaQuery.of(context).size.width * 0.30),
+              child: Column(
+                children: <Widget>[
+                  Image.asset('assets/img/info_toko.png'),
+                ],
+              ),
             ),
+            onTap: () {
+              Navigator.of(context)
+                  .pushReplacementNamed(PembeliScreen.routeName);
+            },
           ),
           SizedBox(height: 60.0),
           //Cari toko
-          Container(
-            width: 256,
-            height: 86,
-            margin: EdgeInsets.only(left: 105),
-            child: Column(
-              children: <Widget>[
-                Image.asset('assets/img/cari_toko.png'),
-              ],
+          InkWell(
+            child: Container(
+              width: 256,
+              height: 86,
+              margin: EdgeInsets.only(left: 105),
+              child: Column(
+                children: <Widget>[
+                  Image.asset('assets/img/cari_toko.png'),
+                ],
+              ),
             ),
+            onTap: () {
+              Navigator.of(context)
+                  .pushReplacementNamed(PembeliScreen.routeName);
+            },
           ),
           SizedBox(height: 30),
           Column(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proxim/screens/home/home.dart';
+import 'package:proxim/screens/pembeli/pembeli_main.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,6 +11,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
+      routes: {
+        HomeScreen.routeName: (context) => HomeScreen(),
+        PembeliScreen.routeName: (context) => PembeliScreen(),
+      },
     );
   }
 }
