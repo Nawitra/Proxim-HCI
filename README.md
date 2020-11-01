@@ -4,7 +4,8 @@ A new Flutter project.
 
 ## READ ME
 
-Jangan di-**merge** dulu sama **main branch** di **repository** Nando, soalnya **code base**-nya beda jauh.
+Jangan di-*merge* dulu sama *main branch* di *repository* Nando, soalnya *code base*-nya beda jauh.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
