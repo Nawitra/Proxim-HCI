@@ -34,7 +34,7 @@ mikro di objek wisata setempat.
 · Jelas dan terorganizir dengan baik
 Secara keseluruhan, aplikasi Proxim dibuat dengan sederhana. Dengan harapan bahwa pengguna yang tidak begitu melek teknologi, dapat menggunakannya dengan baik. Aplikasi ini bahkan tidak memiliki navigasi bar yang berisi banyak tab, biasanya ada pada aplikasi yang lebih kompleks.
 - Contohnya adalah menu utama Proxim:
-<img src="Menu.jpg">
+<img src="pictures/Menu.jpg">
 
 ## Teknologi
 - Flutter: "1.22.0"
