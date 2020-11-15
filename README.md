@@ -1,10 +1,12 @@
-# Proxim - UI Aplikasi Mobile
+hddn# Proxim - UI Aplikasi Mobile
 Aplikasi ini dibuat untuk memberikan exposure pada pengusaha UMKM. Proyek ini hanya berupa UI aplikasi ini dibuat dengan menggunakan Flutter (Dart Framework).
 
 ## Konten:
 - [Apa itu Proxim?](#Apa-Itu-Proxim-?)
 - [Tim Proxim](#Tim-Proxim)
-- [Apa yang ada di dalam Proxim?](#Apa-yang-ada-di-dalam-Proxim-?)
+- [Target Pengguna](#Target-Pengguna)
+- [Tujuan Proxim](#Tujuan-Proxim)
+- [Filosofi HCI](#Filosofi-HCI)
 - [Teknologi yanng dipakai dalam pembuatan Proxim](#Teknologi)
 - [Bagaimana Cara Menggunakannya?](#Bagaimana-Cara-Menggunakannya-?)
 
@@ -18,24 +20,26 @@ Proxim adalah aplikasi yang digunakan untuk memberikan informasi kepada
 pengunjung mengenai lokasi usaha mikro terdekat agar pengunjung dapat
 lebih mudah mendapatkan barang yang diinginkan dengan pasti.
 
-## Apa yang ada di dalam Proxim?
-- Halaman pertama yang akan ditemukan pengguna saat menggunakan aplikasi Proxim adalah halaman ​login/sign​ up​. 
-- Pengguna dapat mendaftarkan diri sebagai pelanggan atau penjual. Pelanggan dan penjual memiliki fitur utama yang sama, yakni adanya peta lokasi penjual yang ditandai dengan pin-pin.
- 
-- Bagi pelanggan, halaman pertama yang ditemui setelah ​login/sign​ up adalah peta lokasi penjual. Di peta tersebut, lokasi penjual akan ditandai oleh pin-pin yang terpasang pada peta. Pin-pin tersebut hanya muncul apabila lokasi penjual berada setidaknya 2 km jauhnya dari pelanggan. 
-- Selain itu, pelanggan juga bisa melihat lokasi penjual dalam bentuk ​list​ ​, dengan menggeser layar ke atas. List penjual akan muncul dan pelanggan akan dapat
-memilih penjual mana yang ingin mereka ​track​.
+## Target Pengguna
+Penjual UMKM dan Pengunjung yang berada di sekitar Objek Pariwisata.
 
-- Bagi penjual, halaman pertama yang ditemui setelah ​login/sign​ up juga
-adalah peta lokasi penjual. Perbedaannya adalah, fitur yang terdapat pada
-tombol-tombol aplikasi yang terletak di bawah peta. 
-- Adapun fitur-fiturnya yaitu pengisian profil oleh penjual, peletakkan pin untuk menunjukkan lokasi penjual. Untuk pengisian profil mencakup nama/merk dagang dari penjual, jumlah stok barang yang dijual, foto penjual (lokasi atau lapak penjual) dan nomor telepon penjual. Untuk semua pengguna (baik penjual maupun pelanggan), apabila telah melaksanakan proses registrasi/​sign up​.
+## Tujuan Proxim 
+1. Meningkatkan kesadaran pengunjung akan keberadaan usaha-usaha
+mikro di objek wisata setempat.
+2. Membangun minat masyarakat untuk membuka usaha mikro.
+
+## Filosofi HCI
+· Elemen visual ekonomi
+· Tidak berlebihan
+· Jelas dan terorganizir dengan baik
+Secara keseluruhan, aplikasi Proxim dibuat dengan sederhana. Dengan harapan bahwa pengguna yang tidak begitu melek teknologi, dapat menggunakannya dengan baik. Aplikasi ini bahkan tidak memiliki navigasi bar yang berisi banyak tab, biasanya ada pada aplikasi yang lebih kompleks.
+- Contohnya adalah menu utama Proxim:
+<img src="Menu.jpg">
 
 ## Teknologi
 - Flutter: "1.22.0"
 - Dart: "2.8"
 - Android SDK: ">=2.7.0 <3.0.0"
-
 
 ## Bagaimana cara menggunakannya?
 - [Mendunduh Proyek](#Mengunduh-Proyek)
