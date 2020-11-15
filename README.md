@@ -1,4 +1,4 @@
-hddn# Proxim - UI Aplikasi Mobile
+# Proxim - UI Aplikasi Mobile
 Aplikasi ini dibuat untuk memberikan exposure pada pengusaha UMKM. Proyek ini hanya berupa UI aplikasi ini dibuat dengan menggunakan Flutter (Dart Framework).
 
 ## Konten:
